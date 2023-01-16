@@ -13,6 +13,4 @@ if(bodyOscuro){
     h1.style.backgroundColor = "teal"
     h1.style.padding = "20px"
 }
-
-//--------------------------------------------------
 })
