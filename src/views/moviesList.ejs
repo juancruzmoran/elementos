@@ -23,12 +23,12 @@
     <br>
     <ul>
         <% for( let i = 0; i < movies.length; i++ ) { %>
-        <li>
+        <li class="movies">
             <a  href="/movies/detail/<%= movies[i].id %>"><%= movies[i].title %></a>
         </li>
         <% } %>
 
     </ul>
-    <script src="/js/moviesList.js"></script>   
+    <script src="/js/moviesList.js"></script>
 </body>
 </html>
